@@ -1,12 +1,13 @@
-.cart-no {
-  position: absolute;
-  min-height: 25px;
-  min-width: 25px;
-  border-radius: 50%;
-  font-size: 1em;
-  background: blue;
+
+.badge-notify{
+  background:purple;
+  position:relative;
   color: white;
   text-align: center;
-  top: -12px;
-  right: 32px;
-}
+  border-radius: 50%;
+  font-size: 0.9em;
+  min-height: 23px;
+  min-width: 23px;
+  left: -65px;
+  top: -11px;
+ }
