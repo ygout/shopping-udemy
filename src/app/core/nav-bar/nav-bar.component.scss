@@ -1,7 +1,6 @@
-
-.badge-notify{
-  background:purple;
-  position:relative;
+.badge-notify {
+  background: purple;
+  position: relative;
   color: white;
   text-align: center;
   border-radius: 50%;
@@ -10,4 +9,21 @@
   min-width: 23px;
   left: -65px;
   top: -11px;
- }
+}
+
+a {
+  text-decoration: none;
+  color: #343a40;
+
+  &.active {
+    color: orange;
+  }
+}
+
+.logo {
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
