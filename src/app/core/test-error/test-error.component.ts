@@ -9,6 +9,7 @@ import { environment } from 'src/environments/environment';
 })
 export class TestErrorComponent implements OnInit {
   baseUrl = environment.apiUrl;
+  validationErrors: any;
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
@@ -40,6 +41,7 @@ export class TestErrorComponent implements OnInit {
       console.log(response);
     }, error => {
       console.error(error);
+      this.validationErrors = error.errors;
     })
   }
 }
